@@ -1,0 +1,98 @@
+
+.navbar-brand img {
+    max-height: 80px; /* Ajusta la altura máxima según tus necesidades */
+}
+.navbar-nav {
+    margin-right: auto; /* Alinea los elementos de navegación a la derecha */
+}
+header
+{background-color: rgb(245, 246, 247);
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+a
+{text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 20px;
+}
+
+img{
+    width: 100px;
+}
+h1
+{font-size:20px;
+    color: rgb(249, 244, 243);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{font-size: 20px;
+color: rgb(13, 0, 0);
+font-family: 'Courier New', Courier, monospace;}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+padding: 10px;
+margin: 10px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: antiquewhite;
+    margin-top: 10px 0 10px 0;
+}
+
+.caja {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    padding: 10px;
+
+}
+
+.caja p{
+    font-size: 15px;
+}
+
+.caja {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.caja img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+}
+.caja h1 {
+    font-size: 1.5rem; 
+}
+
+footer {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    padding: 1rem; /* Espaciado interior */
+    text-align: center; /* Centrar texto */
+    border-top: 1px solid #e9ecef; /* Borde superior para separación */
+}
+
+footer p {
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    color: #6c757d; /* Color de texto más tenue */
+}
